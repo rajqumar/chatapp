@@ -1,37 +1,26 @@
 {
-  "name": "chat.io",
-  "version": "1.0.0",
-  "description": "A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, Passport, & Redis.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "url": "git+https://github.com/OmarElGabry/chat.io.git",
-    "type": "git"
-  },
-  "author": "Omar El Gabry <omar.elgabry.93@gmail.com> (http://omarelgabry.me)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/OmarElGabry/chat.io/issues"
-  },
-  "homepage": "https://github.com/OmarElGabry/chat.io",
-  "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.15.2",
-    "connect-flash": "^0.1.1",
-    "connect-mongo": "^1.3.2",
-    "ejs": "^2.5.1",
-    "express": "^4.14.0",
-    "express-session": "^1.14.0",
-    "mongoose": "^4.7.5",
-    "passport": "^0.3.2",
-    "passport-facebook": "^2.1.1",
-    "passport-local": "^1.0.0",
-    "passport-twitter": "^1.0.4",
-    "redis": "^2.6.2",
-    "socket.io": "^2.0.3",
-    "socket.io-redis": "^5.1.0",
-    "winston": "^2.2.0"
-  }
+    "name"        : "expressjs-blog"
+  , "version"     : "0.1.8"
+  , "homepage"    : "http://node-blog-example.herokuapp.com/"
+  , "description" : "ExpressJS sample blog that uses Mongoose, Jade, Stylus and AJAX/jQuery"
+  , "repository"  : "git@github.com:csanz/expressjs-blog.git"
+  , "author"      : "Christian Sanz <chrissanz@gmail.com>"
+  , "dependencies": {
+        "express"           : "2.5.4"
+      , "express-messages"  : "0.0.x"
+      , "express-resource"  : "0.2.4"
+      , "express-mongoose"  : "0.0.x"
+      , "express-expose"    : "0.2.2"
+      , "stylus"            : "0.13.x"
+      , "mongoose"          : "2.5.10"
+      , "jade"              : "0.25.x"
+      , "stylus"            : "0.22.x"
+      , "nib"               : "0.3.x"
+      , "pusher"            : "0.0.x"
+    }
+  , "main"    : "./index.js"
+  , "engines" : { 
+      "node": "0.6.x" 
+    , "npm" : "1.0.x"
+    }
 }
